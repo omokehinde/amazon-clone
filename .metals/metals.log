@@ -49,3 +49,4 @@
 2020.11.27 23:40:36 INFO  time: initialize in 1.04s
 2020.11.27 23:40:55 WARN  Build server is not auto-connectable.
 2020.11.27 23:40:55 WARN  no build tool detected in workspace 'C:\Users\omokehinde\Documents\NodeProjects\react\amazon-clone'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.29 01:21:08 INFO  shutting down Metals

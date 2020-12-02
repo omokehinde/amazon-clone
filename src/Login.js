@@ -10,7 +10,7 @@ function Login() {
 
     const login = e => {
         e.preventDefault();
-        console.log(email + ' ' + password);
+        // console.log(email + ' ' + password);
         auth.signInWithEmailAndPassword(email,password)
             .then(auth =>{
                 history.push('/');
@@ -20,7 +20,7 @@ function Login() {
 
     const signUp = e => {
         e.preventDefault();
-        console.log(email+' '+password);
+        // console.log(email+' '+password);
         auth.createUserWithEmailAndPassword(email,password)
             .then(auth => {
                 history.push('/');
